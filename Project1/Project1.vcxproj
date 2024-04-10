@@ -127,8 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-	  <ClCompile Include="variable.cpp" />
-	  <ClCompile Include="hello world.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="helloWorld.cpp" />
+    <ClCompile Include="variable.cpp" />
+    <ClCompile Include="函数的参数.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="helloWorld.h" />
+    <ClInclude Include="variable.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

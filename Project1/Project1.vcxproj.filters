@@ -15,8 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="helloWorld.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="variable.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="函数的参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="helloWorld.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
