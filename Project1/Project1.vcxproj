@@ -130,10 +130,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="helloWorld.cpp" />
     <ClCompile Include="variable.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="函数的参数.cpp" />
-=======
->>>>>>> b1045c35cb84c8bd8c14868adb19e5d47e71dd11
+
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
