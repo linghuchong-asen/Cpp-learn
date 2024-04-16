@@ -6,6 +6,9 @@ void swapFun();
 // Ö¸Õë
 void pointerFun();
 
+// Êý¾Ý
+void arrFun();
+
 
 #include<iostream>
 #include "helloWorld.h";
