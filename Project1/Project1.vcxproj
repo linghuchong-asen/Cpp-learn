@@ -133,6 +133,7 @@
     <ClCompile Include="函数的参数.cpp" />
     <ClCompile Include="指针.cpp" />
     <ClCompile Include="数组.cpp" />
+    <ClCompile Include="结构体struct.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />

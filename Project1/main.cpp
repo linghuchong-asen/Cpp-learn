@@ -10,9 +10,9 @@ int main() {
 	/*hello();
 	variable();
 	swapFun();
-	pointerFun();*/
-
-	arrFun();
+	pointerFun();
+	arrFun();*/
+	structFun();
 
 	return 0;
 	
