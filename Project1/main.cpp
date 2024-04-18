@@ -7,12 +7,13 @@ extern int variable();
 
 int main() {
 
-	/*hello();
-	variable();
-	swapFun();
-	pointerFun();
-	arrFun();*/
-	structFun();
+	//hello();
+	//variable();
+	//swapFun();
+	//pointerFun();
+	//arrFun();
+	//structFun();
+	memoryFun();
 
 	return 0;
 	

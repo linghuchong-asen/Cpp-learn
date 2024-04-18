@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\C++核心编程">
+      <UniqueIdentifier>{4529ddaa-8341-46d2-bf49-7607a126b432}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -35,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="结构体struct.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内存分区模型.cpp">
+      <Filter>源文件\C++核心编程</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

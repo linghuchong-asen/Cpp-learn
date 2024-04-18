@@ -12,8 +12,12 @@ void arrFun();
 // 结构体
 void structFun();
 
+// 内存区模型
+void memoryFun();
+
 
 #include<iostream>
+#include<string>;
 #include "helloWorld.h";
 #include "variable.hpp";
 
