@@ -42,6 +42,9 @@
     <ClCompile Include="内存分区模型.cpp">
       <Filter>源文件\C++核心编程</Filter>
     </ClCompile>
+    <ClCompile Include="引用.cpp">
+      <Filter>源文件\C++核心编程</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

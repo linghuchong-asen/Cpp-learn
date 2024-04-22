@@ -13,7 +13,10 @@ void arrFun();
 void structFun();
 
 // 内存区模型
-void memoryFun();
+void memoryFun(int p_f);
+
+// 引用
+void quoteFun();
 
 
 #include<iostream>

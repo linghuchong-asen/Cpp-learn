@@ -13,7 +13,8 @@ int main() {
 	//pointerFun();
 	//arrFun();
 	//structFun();
-	memoryFun();
+	//memoryFun(10);
+	quoteFun();
 
 	return 0;
 	
