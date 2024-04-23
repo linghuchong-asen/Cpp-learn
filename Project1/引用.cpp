@@ -25,6 +25,8 @@ void quoteFun() {
 	//cout << "c: " << c << endl;
 	//cout << "a: " << a << endl;
 
+	// 当参数需要的是引用时，传变量自身和引用效果一样
+	swapFun2(a, d);
 	swapFun2(b, d);
 	cout << "c: " << c << endl;
 	cout << "a: " << a << endl;
@@ -33,13 +35,13 @@ void quoteFun() {
 	//cout << "ref的值：" << ref << endl;
 	//cout <<"ref的值："<<  ref << endl;
 
-	int& ref2 = testFun2();
+	/*int& ref2 = testFun2();
 	cout << "ref2的值：" << ref2 << endl;
-	cout <<"ref2的值："<<  ref2 << endl;
+	cout <<"ref2的值："<<  ref2 << endl;*/
 
 	// 函数做左值，必须返回引用类型
-	testFun2() = 40;
-	cout << "ref2的值：" << ref2 << endl;
+	//testFun2() = 40;
+	//cout << "ref2的值：" << ref2 << endl;
 
 }
 
