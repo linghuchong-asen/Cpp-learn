@@ -45,6 +45,12 @@
     <ClCompile Include="引用.cpp">
       <Filter>源文件\C++核心编程</Filter>
     </ClCompile>
+    <ClCompile Include="函数.cpp">
+      <Filter>源文件\C++核心编程</Filter>
+    </ClCompile>
+    <ClCompile Include="类.cpp">
+      <Filter>源文件\C++核心编程</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

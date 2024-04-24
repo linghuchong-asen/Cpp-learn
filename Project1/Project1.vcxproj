@@ -131,10 +131,12 @@
     <ClCompile Include="helloWorld.cpp" />
     <ClCompile Include="variable.cpp" />
     <ClCompile Include="内存分区模型.cpp" />
+    <ClCompile Include="函数.cpp" />
     <ClCompile Include="函数的参数.cpp" />
     <ClCompile Include="引用.cpp" />
     <ClCompile Include="指针.cpp" />
     <ClCompile Include="数组.cpp" />
+    <ClCompile Include="类.cpp" />
     <ClCompile Include="结构体struct.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -14,7 +14,9 @@ int main() {
 	//arrFun();
 	//structFun();
 	//memoryFun(10);
-	quoteFun();
+	//quoteFun();
+	//functionTest();
+	classFun();
 
 	return 0;
 	

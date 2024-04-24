@@ -18,6 +18,11 @@ void memoryFun(int p_f);
 // 引用
 void quoteFun();
 
+// 函数
+void functionTest();
+
+// 类
+void classFun();
 
 #include<iostream>
 #include<string>;
