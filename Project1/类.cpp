@@ -7,9 +7,23 @@ public:
 	Circle(int r) {
 		m_r = r;
 		color = "red";
+		diameter = new int(10);
+	};
+
+	// 拷贝构造函数
+	Circle(const Circle& p) {
+		m_r = 10;
+		diameter = new int(p.m_r);
 	}
 
 	int m_r;
+	int *diameter;
+
+	~Circle() {
+		if (diameter != NULL) {
+			delete diameter;
+		}
+	}
 
 	double caculatePerimeter() {
 		return 2 * PI * m_r;
@@ -25,5 +39,4 @@ void classFun() {
 	Circle c(2);
 	double a = c.caculatePerimeter();
 	cout << "圆的周长： " << a << endl;
-
 }
